@@ -6,7 +6,7 @@
  * Time: 3:52 PM
  */
 
-# Array length
+# 5. Array length
 $family = array("Fred", "Wilma", "Pebbles");
 $size = count($family);
 echo $size,"\n";
@@ -20,7 +20,7 @@ echo $size;
 
 
 
-# Array Padding
+# 5. Array Padding
 
 $scores = array(5, 10);
 $padded = array_pad($scores, 5, 0);

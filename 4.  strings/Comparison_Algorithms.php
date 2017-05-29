@@ -32,7 +32,7 @@ printf("They have %d chars in common (%.2f%%).", $common, $percent);
 
 
 
-# The Levenshtein algorithm calculates the similarity of two strings based on how many
+# The Levenshtein algorithm calculates the similarity of two 4. strings based on how many
 # characters you must add, substitute, or remove to make them the same.
 $similarity = levenshtein("cat", "cot");
 echo "\n\n";

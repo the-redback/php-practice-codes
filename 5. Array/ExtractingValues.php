@@ -13,7 +13,7 @@ print_r($person);
 echo $name,"\n",$age,"\n",$wife,"\n";
 
 
-# Slicing Array
+# Slicing 5. Array
 
 $people = array("Tom", "Dick", "Harriet", "Brenda", "Jo");
 $middle = array_slice($people, 2, 2); // $middle is array("Harriet", "Brenda")
@@ -33,7 +33,7 @@ print_r($rows);
 
 
 
-# Array Of keys
+# 5. Array Of keys
 $person = array('name' => "Fred", 'age' => 35, 'wife' => "Wilma");
 $keys = array_keys($person); // $keys is array("name", "age", "wife")
 print_r($person);
@@ -44,7 +44,7 @@ print_r($values);
 
 
 
-### Array splices
+### 5. Array splices
 
 $subjects = array("physics", "chem", "math", "bio", "cs", "drama", "classics");
 print_r($subjects);
